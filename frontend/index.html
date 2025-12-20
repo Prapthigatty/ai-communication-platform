@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Communication Intelligence</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="app">
+   <header>
+  <h1>AI Communication Intelligence</h1>
+  <p>Analyze tone, confidence, and professionalism in seconds</p>
+  <button id="themeToggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+</header>
+
+
+    <main>
+      <div class="card">
+        <label for="textInput">Enter professional text</label>
+        <textarea id="textInput" placeholder="Paste your email or message here..."></textarea>
+        <button onclick="analyzeText()">Analyze Communication</button>
+      </div>
+
+      <div id="result" class="card hidden">
+        <h2>Analysis Result</h2>
+
+        <div class="scores">
+          <div class="score-box">
+            <span id="tone"></span>
+            <small>Tone</small>
+          </div>
+          <div class="score-box">
+            <span id="confidence"></span>
+            <small>Confidence</small>
+          </div>
+          <div class="score-box">
+            <span id="professionalism"></span>
+            <small>Professionalism</small>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Insights</h3>
+          <ul id="insights"></ul>
+        </div>
+
+        <div class="section">
+          <h3>Suggested Rewrite</h3>
+          <div class="rewrite" id="rewrite"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Built by Prapthi • AI-powered NLP Project
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

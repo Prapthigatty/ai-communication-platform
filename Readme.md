@@ -50,15 +50,26 @@ Backend API Docs: https://ai-communication-backend.onrender.com/docs
 
 ## 📦 Project Structure
 
+```text
 ai-communication-platform/
 ├── backend/
-│ ├── app/
-│ ├── ml/
-│ └── requirements.txt
+│   ├── app/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   └── main.py
+│   ├── ml/
+│   │   ├── train.py
+│   │   ├── predict.py
+│   │   └── artifacts/
+│   └── requirements.txt
+│
 ├── frontend/
-│ ├── index.html
-│ ├── styles.css
-│ └── script.js
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+│
+├── README.md
+└── LICENSE
 
 
 ---

@@ -83,7 +83,7 @@ ai-communication-platform/
 ---
 
 ## Author
-**Prapthi Gatty**  
+**Prapthi A**  
 MCA Student | Python | Machine Learning | Full Stack Development
 
 ---

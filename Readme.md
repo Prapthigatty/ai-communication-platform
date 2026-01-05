@@ -2,13 +2,13 @@
 
 A full-stack AI-powered web application that analyzes professional communication, detects tone, evaluates confidence and professionalism, and provides context-aware rewrite suggestions.
 
-## 🔗 Live Demo
+## Live Demo
 Frontend: https://ai-communication-frontend.onrender.com  
 Backend API Docs: https://ai-communication-backend.onrender.com/docs
 
 ---
 
-## 🚀 Features
+## Features
 - Tone classification (Professional, Passive, Aggressive, Over-apologetic)
 - Confidence and professionalism scoring
 - Linguistic insights based on rule-based NLP
@@ -18,7 +18,7 @@ Backend API Docs: https://ai-communication-backend.onrender.com/docs
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - Python
@@ -38,7 +38,7 @@ Backend API Docs: https://ai-communication-backend.onrender.com/docs
 
 ---
 
-## 🧠 How It Works
+## How It Works
 1. User submits professional text
 2. NLP preprocessing is applied
 3. ML model predicts communication tone
@@ -48,7 +48,7 @@ Backend API Docs: https://ai-communication-backend.onrender.com/docs
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```text
 ai-communication-platform/
@@ -74,7 +74,7 @@ ai-communication-platform/
 
 ---
 
-## 📌 Use Case
+## Use Case
 - Improving workplace email communication
 - Professional writing assistance
 - NLP-based communication analysis
@@ -82,12 +82,12 @@ ai-communication-platform/
 
 ---
 
-## 👩‍💻 Author
+## Author
 **Prapthi Gatty**  
 MCA Student | Python | Machine Learning | Full Stack Development
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
 
